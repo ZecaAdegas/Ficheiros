@@ -1,13 +1,32 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package manipulaficheiros;
 
-/**
- *
- * @author hpaulo
- */
+import java.io.File;
+
 class Ficheiro {
+
+    static void criaFicheiro() {
+    }
+
+    static void verificaSeExiste() {
+    }
+
+    static void escreveNoFinal() {
+    }
+
+    static void escreveFicheiroNovo() {
+    }
+
+    static void PrintFicheiro() {
+    }
+
+    static void mostraListaFicheiros() {
+        File ficheiro = new File("C:\\Users\\hpaulo\\Desktop\\ProjetoJava\\Ficheiros");
+        File [] lista = ficheiro.listFiles();
+        for(int x = 0;x<lista.length;x++){
+            System.out.println(lista[x].getName());
+        }
+
+        
+    }
     
 }
